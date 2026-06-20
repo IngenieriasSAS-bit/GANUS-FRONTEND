@@ -1,0 +1,179 @@
+/* ======================= */
+/* GANUS MOBILE */
+/* ======================= */
+
+@media(max-width:768px){
+
+/* DASHBOARD Y PAGINAS */
+
+.dashboard,
+
+.inventario,
+
+.pesaje,
+
+.vacunaciones,
+
+.eventoSanitario{
+
+margin-left:0 !important;
+
+width:100% !important;
+
+padding:
+
+90px
+
+20px
+
+30px
+
+20px
+
+!important;
+
+}
+
+
+/* NAVBAR */
+
+.navbar{
+
+left:0 !important;
+
+right:0 !important;
+
+width:100% !important;
+
+padding:15px !important;
+
+height:auto;
+
+}
+
+.navbarBusqueda{
+
+display:none;
+
+}
+
+.navbarLogo{
+
+margin-left:70px;
+
+}
+
+
+/* CARDS */
+
+.cards,
+
+.kpi-grid,
+
+.dashboard-top,
+
+.graficas,
+
+.bottom,
+
+.eventoTop,
+
+.pesajeTop,
+
+.vacunacionesTop{
+
+display:flex !important;
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+
+/* ADVISORY */
+
+.advisory,
+
+.resumen,
+
+.resumenEvento,
+
+.resumenVacuna{
+
+width:100% !important;
+
+max-width:none !important;
+
+height:auto !important;
+
+}
+
+
+/* TABLAS */
+
+.tablaContainer{
+
+width:100%;
+
+overflow-x:auto;
+
+}
+
+table{
+
+min-width:700px;
+
+}
+
+
+/* MODAL */
+
+.modal{
+
+width:95%;
+
+}
+
+
+/* TITULOS */
+
+.dashboard h1,
+
+.inventario h1,
+
+.pesaje h1,
+
+.vacunaciones h1,
+
+.eventoSanitario h1{
+
+font-size:2rem;
+
+text-align:center;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.tablaPesajes,
+.tablaVacunas,
+.tablaEventos{
+
+overflow-x:auto;
+
+width:100%;
+
+}
+
+.tablaPesajes table,
+.tablaVacunas table,
+.tablaEventos table{
+
+min-width:900px;
+
+}
+
+}
